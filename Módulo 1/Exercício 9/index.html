@@ -4,25 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras Formatações</title>
+    <title>Listas</title>
 </head>
 <body>
-    <h1>Outras formatações</h1>
-    <h2>Código Fonte / Pré Formatação </h2>
-    <p>O comando <code>document.getElementById("id")</code> é escrito em JavaScript</p>
-    <pre>
-        <code>
-    print('Hello World!')
-        </code>
-    </pre>
-    <h2>Citações</h2>
-    <p>Como diz um cara muito sábio: <q>O Google é o pai dos burros.</q></p>
-    <blockquote cite="Riza">
-        Depois que inventaram a ironia, ninguém mais falou merda.
-    </blockquote>
-    <h2>Abreviações</h2>
-    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
-    <h2>Texto Invertido</h2>
-    <p><bdo dir="rtl">Estou aprendendo a criar coisas com HTML!</bdo></p>
+    <h1>Trabalhando com listas</h1>
+
+    <h2>Listas Ordenadas</h2>
+    <ol type="a">
+        <li>Acordar</li>
+        <li>Tomar Café</li>
+        <li>Ligar para o Rennan</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    
+    <h2>Listas Não Ordendadas</h2>
+    <ul type="circle">
+        <li>Pão</li>
+        <li>Presunto</li>
+        <li>Queijo</li>
+        <li>Coquinha Gelada</li>
+    </ul>
+
+    <h2>Minhas linguagens favoritas</h2>
+    <ol type="1">
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Delphi</li>
+            <li>Fortran</li> 
+            <!-- Dessas eu só conheço a Virtual Basic -->
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+        </ol>
+    </ol>
+
+    <h2>Meus Jogos Favoritos:</h2>
+    <ol>
+        <li>Playstation</li>
+        <ul type="square">
+            <li>God Of War</li>
+            <li>Fatal Frame</li>
+            <li>GTA San Andreas</li>
+        </ul>
+        <li>Xbox</li>
+        <ul type="square">
+            <li>Dante's Inferno</li>
+            <li>Halo</li>
+            <li>Skate 3</li>
+        </ul>
+        <li>PC</li>
+        <ul type="square">
+            <li>Prey</li>
+            <li>Gris</li>
+            <li>Umineko When They Cry</li>
+        </ul>
+    </ol>
+
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>HTNL</dt>
+        <dd>Linguagem de marcação para a criação de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para criação de design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação usada para a criação de interatividade de um site.</dd>
+    </dl>
 </body>
 </html>
