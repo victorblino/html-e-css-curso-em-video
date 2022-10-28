@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em HTML5</title>
+</head>
+<body>
+    <h1>Vídeos Hospedados Localmente</h1>
+    <p>Esse vídeo está hospedado na própria máquina.</p>
+
+    <video controls poster="images/thumb.png" height="500" preload="metadata">
+        <source src="media/my-video.m4v" type="video/m4v">
+        <source src="media/my-video.ogv" type="video/ogv">
+        <source src="media/my-video.webm" type="video/webm">
+        <source src="media/my-video.mp4" type="video/webm">
+        <p>Seu navegador não suporta reprodução de vídeos.</p>
+    </video>
+
+    <h1>Inserindo Vídeos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/I5ROgVj_RpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Inserindo vídeos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/73600542?h=016036db4d" width="560" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    <p><a href="https://vimeo.com/73600542">Opening Umineko Anime</a> de <a href="https://vimeo.com/user14456867">Zeratul ANS</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+</body>
+</html>
