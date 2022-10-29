@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 06 - Imagem Flexível</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+
+    <p>Você está vendo essa imagem? Experimente mudar a resolução da sua tela para ter uma melhor expêriencia!</p>
+
+    <picture>
+        <source media="(min-width: 1200px)" srcset="images/paisagem-g.png" type="image/png">
+        <source media="(min-width: 750px)" srcset="images/paisagem-m.png" type="image/png">
+        <img src="images/paisagem-p.png" alt="Imagem de uma moça em cima de uma pedra com braços abertos e uma paisagem ao fundo.">
+    </picture>
+</body>
+</html>

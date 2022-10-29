@@ -1,0 +1,52 @@
+/* fonts to all pages */
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+/* index */
+
+.index h1  {
+    text-align: center;
+    color: aliceblue;
+}
+.index body {
+    background-color: #1D1D1D;
+}
+
+.index p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.index p.thumb img {
+    width: 21.875rem;
+    padding: 2px;
+}
+
+/* video pages */
+
+body {
+    background-color: #1D1D1D;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+.back {
+    fill: #fff;
+}
+
+a#playlist  {
+    color: aliceblue;
+
+}
