@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/mediaquery.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Menu Responsivo</title>
+</head>
+<body onresize="changeSize()">
+
+    <header>
+        <h1>Meu Site</h1>
+        <i class="material-symbols-outlined" id="burguer" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+        <article>
+
+            <h2>Enigma do Medo anuncia pré-venda e revela o elenco de dublagem</h2>
+
+            <h3>Jogo Brasileiro com direção de Cellbit e desenvolvido pela Dumativa ganha novo trailer, revela elenco de dublagem dirigido por Fred Mascarenhas e anuncia pré-venda na Nuuvem</h3>
+
+            <p>Enigma do Medo é um jogo de exploração e mistério, dirigido por Rafael Lange (Cellbit) em desenvolvido pela Dumativa, empresa de jogos independentes do Brasil. O jogo possui uma estética que une pixel art com cenários 3D, contando com enigmas, investigação e combate contra monstros em um mapa não-linear.</p>
+
+            <p>No dia 11 de dezembro de 2022 foi anunciado publicamente mais um trailer do jogo, revelando o elenco de dublagem e mostrando um pouco mais da narrativa.</p>
+
+            <p>O elenco de dublagem é dirigido por Fred Mascarenhas, um ator e dublador brasileiro, responsável por dirigir as vozes de jogos como Multiversus e Horizon Forbidden West. O elenco também conta com nomes de peso como Guilherme Briggs, Pamella Rodrigues, Karen Padrão, Manolo Rey, Raphael Rossatto, Helena Palomanes, Hércules Franco, Thiago Zambrano, Marco Ribeiro e Carol Crespo.</p>
+
+            <p>O jogo Enigma do Medo trata da história de Mia (Pamella Rodrigues), uma jovem detetive paranormal que investiga o desaparecimento do seu pai, o Sr. Veríssimo (Guilherme Briggs). Os jogadores poderão investigar uma área misteriosa denominada “Perímetro – O lugar que não existe”, e descobrir quais as verdadeiras intenções por trás do enigmático “Culto do Medo”. Na companhia do seu cãozinho, Lupi, e com a ajuda de outros detetives, Mia embarca em uma jornada não linear, cheia de mistérios, desafios e criaturas paranormais assustadoras.</p>
+
+            <p>O projeto é fruto de uma das maiores campanhas de financiamento coletivo do Brasil e a previsão oficial para o lançamento do jogo é para o primeiro semestre de 2023, com planos de lançamento de para PCs e consoles. Já é possível adquirir o jogo através da pré-venda exclusiva para PCs diretamente no site da <a href="https://nuuvem.com/medo">Nuuvem</a>.</p>
+
+            <p>A pré-venda é por tempo limitado e dará uma skin exclusiva do Lupi.</p>
+
+        </article>
+    </main>
+    
+    <script>
+
+        function changeSize() {
+            if ( window.innerWidth >= 768 ) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+
+        }
+
+    </script>
+
+</body>
+</html>
